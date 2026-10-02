@@ -1,0 +1,58 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+
+# Build
+.next/
+dist/
+build/
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Temporary
+tmp/
+temp/
+
+# Cache
+.cache/
+.turbo/
+
+# Uploads
+uploads/
+storage/
+
+# Secrets
+*.pem
+*.key
+*.crt
